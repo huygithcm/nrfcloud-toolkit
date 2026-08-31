@@ -1,0 +1,26 @@
+cmake:
+  application:
+    source-dir: 'C:/ncs/v3.2.2/zephyr/share/sysbuild'
+  board:
+    name: 'nrf9160dk'
+    path:
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk'
+    qualifiers: 'nrf9160/ns'
+    revision: '0.14.0'
+  images:
+   - name: 'firmware_dev'
+     source-dir: 'C:/ncs/firmware_dev'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'C:/ncs/firmware_dev/product_build/_sysbuild/empty.conf'
+     - 'C:/ncs/firmware_dev/product_build/_sysbuild/empty.conf'
+     - 'C:/ncs/firmware_dev/product_build/_sysbuild/empty.conf'
+    user-files:
+     - 'C:/ncs/firmware_dev/product_build/_sysbuild/empty.conf'
+  sysbuild: 'true'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\c717907b94\opt\bin\Scripts\west build --build-dir c:/ncs/firmware_dev/product_build c:/ncs/firmware_dev --pristine --board nrf9160dk@0.14.0/nrf9160/ns -- -DCONF_FILE=prj.conf -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -Dfirmware_dev_DEBUG_THREAD_INFO=On'
+  topdir: 'c:\ncs\v3.2.2'
+  version: '1.4.0'

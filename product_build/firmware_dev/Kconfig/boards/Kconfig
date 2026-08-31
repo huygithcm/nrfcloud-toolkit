@@ -1,0 +1,4 @@
+# Load Zephyr board Kconfig descriptions.
+osource "C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/Kconfig"
+config BOARD_REVISION_0_14_0
+	def_bool y

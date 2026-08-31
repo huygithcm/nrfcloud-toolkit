@@ -1,0 +1,7 @@
+default: firmware_dev
+build_dir: C:/ncs/firmware_dev/product_build
+domains:
+  - name: firmware_dev
+    build_dir: C:/ncs/firmware_dev/product_build/firmware_dev
+flash_order:
+  - firmware_dev

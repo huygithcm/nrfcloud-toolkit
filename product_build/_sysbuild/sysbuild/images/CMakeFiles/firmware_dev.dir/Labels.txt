@@ -1,0 +1,13 @@
+# Target labels
+ firmware_dev
+# Source files and their labels
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev-complete.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-build.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-configure.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-download.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-install.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-mkdir.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-patch.rule
+C:/ncs/firmware_dev/product_build/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-update.rule
