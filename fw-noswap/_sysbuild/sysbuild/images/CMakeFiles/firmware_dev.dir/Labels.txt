@@ -1,0 +1,13 @@
+# Target labels
+ firmware_dev
+# Source files and their labels
+C:/fw-noswap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev
+C:/fw-noswap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev-complete.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-build.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-configure.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-download.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-install.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-mkdir.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-patch.rule
+C:/fw-noswap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-update.rule

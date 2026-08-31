@@ -1,0 +1,26 @@
+cmake:
+  application:
+    source-dir: 'C:/ncs/v3.2.2/zephyr/share/sysbuild'
+  board:
+    name: 'nrf9160dk'
+    path:
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk'
+    qualifiers: 'nrf9160/ns'
+    revision: '0.14.0'
+  images:
+   - name: 'firmware_dev'
+     source-dir: 'C:/ncs/firmware_dev'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'C:/fw-swap/_sysbuild/empty.conf'
+     - 'C:/fw-swap/_sysbuild/empty.conf'
+     - 'C:/fw-swap/_sysbuild/empty.conf'
+    user-files:
+     - 'C:/fw-swap/_sysbuild/empty.conf'
+  sysbuild: 'true'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\c717907b94\opt\bin\Lib\site-packages\west\__main__.py build -b nrf9160dk/nrf9160/ns . -d C:\fw-swap --pristine -- -DEXTRA_CONF_FILE=debug.conf;secrets.conf;bootdelay.conf;C:\Users\huybu\AppData\Local\Temp\claude\c--ncs-firmware-dev\c75459a7-a1de-4c5a-a8ae-bc7a96a07f92\scratchpad\swap.conf'
+  topdir: 'C:\ncs\v3.2.2'
+  version: '1.4.0'

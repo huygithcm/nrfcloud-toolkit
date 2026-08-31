@@ -1,0 +1,72 @@
+cmake:
+  application:
+    configuration-dir: 'C:/ncs/firmware_dev'
+    source-dir: 'C:/ncs/firmware_dev'
+  board:
+    name: 'nrf9160dk'
+    path:
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk'
+    qualifiers: 'nrf9160/ns'
+    revision: '0.14.0'
+  devicetree:
+    bindings-dirs:
+     - 'C:/ncs/v3.2.2/nrf/dts/bindings'
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/dts/bindings'
+     - 'C:/ncs/v3.2.2/zephyr/dts/bindings'
+    files:
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns.dts'
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_0_14_0.overlay'
+     - 'C:/ncs/firmware_dev/app.overlay'
+    include-dirs:
+     - 'C:/ncs/v3.2.2/nrf/include'
+     - 'C:/ncs/v3.2.2/nrf/dts/common'
+     - 'C:/ncs/v3.2.2/nrf/dts/riscv'
+     - 'C:/ncs/v3.2.2/nrf/dts/arm'
+     - 'C:/ncs/v3.2.2/nrf/dts'
+     - 'C:/ncs/firmware_dev/include'
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/dts'
+     - 'C:/ncs/v3.2.2/zephyr/include'
+     - 'C:/ncs/v3.2.2/zephyr/include/zephyr'
+     - 'C:/ncs/v3.2.2/zephyr/dts/common'
+     - 'C:/ncs/v3.2.2/zephyr/dts/vendor'
+     - 'C:/ncs/v3.2.2/zephyr/dts/rx'
+     - 'C:/ncs/v3.2.2/zephyr/dts/x86'
+     - 'C:/ncs/v3.2.2/zephyr/dts/xtensa'
+     - 'C:/ncs/v3.2.2/zephyr/dts/sparc'
+     - 'C:/ncs/v3.2.2/zephyr/dts/riscv'
+     - 'C:/ncs/v3.2.2/zephyr/dts/posix'
+     - 'C:/ncs/v3.2.2/zephyr/dts/arm64'
+     - 'C:/ncs/v3.2.2/zephyr/dts/arm'
+     - 'C:/ncs/v3.2.2/zephyr/dts/arc'
+     - 'C:/ncs/v3.2.2/zephyr/dts'
+    user-files:
+     - 'C:/ncs/firmware_dev/app.overlay'
+  images:
+   - name: 'tfm'
+     source-dir: 'C:/ncs/v3.2.2/modules/tee/tf-m/trusted-firmware-m'
+  kconfig:
+    extra-user-files:
+     - 'debug.conf'
+     - 'secrets.conf'
+     - 'bootdelay.conf'
+     - 'C:/Users/huybu/AppData/Local/Temp/claude/c--ncs-firmware-dev/c75459a7-a1de-4c5a-a8ae-bc7a96a07f92/scratchpad/swap.conf'
+    files:
+     - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_defconfig'
+     - 'C:/ncs/firmware_dev/prj.conf'
+     - 'C:/ncs/firmware_dev/debug.conf'
+     - 'C:/ncs/firmware_dev/secrets.conf'
+     - 'C:/ncs/firmware_dev/bootdelay.conf'
+     - 'C:/Users/huybu/AppData/Local/Temp/claude/c--ncs-firmware-dev/c75459a7-a1de-4c5a-a8ae-bc7a96a07f92/scratchpad/swap.conf'
+     - 'C:/fw-swap/firmware_dev/zephyr/.config.sysbuild'
+    user-files:
+     - 'C:/ncs/firmware_dev/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/ncs/toolchains/c717907b94/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: 'C:/ncs/v3.2.2/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf9160.svd'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: 'C:/ncs/v3.2.2/zephyr'
+version: '0.1.0'

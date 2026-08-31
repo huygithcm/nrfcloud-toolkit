@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/CMakeFiles/firmware_dev-complete.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-build.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-configure.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-download.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-install.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-mkdir.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-patch.rule"
+		},
+		{
+			"file" : "C:/fw-swap/_sysbuild/sysbuild/images/firmware_dev-prefix/src/firmware_dev-stamp/firmware_dev-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"firmware_dev"
+		],
+		"name" : "firmware_dev"
+	}
+}

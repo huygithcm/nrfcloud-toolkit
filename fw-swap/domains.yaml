@@ -1,0 +1,7 @@
+default: firmware_dev
+build_dir: C:/fw-swap
+domains:
+  - name: firmware_dev
+    build_dir: C:/fw-swap/firmware_dev
+flash_order:
+  - firmware_dev
